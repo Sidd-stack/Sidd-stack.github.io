@@ -93,7 +93,7 @@ body{
 display: block;
 overflow-y: auto;
 overflow-x: hidden;
-height: 3004px;
+height: auto;
 margin: 0px;
 }
 .header {
