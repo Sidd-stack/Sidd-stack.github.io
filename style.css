@@ -10,7 +10,7 @@ body{
     --c2: dodgerblue;
     --c3: white;
     --bg: var(--c3);
-    --d: 9000ms;
+    --d: 10000ms;
     --e: cubic-bezier(0.76, 0, 0.24, 1);
     
     background-color: var(--bg);
