@@ -71,7 +71,6 @@ h5{
     justify-content: center;
     align-items: center;
     text-align: center;
-    grid-template-columns:  1fr 1fr;
     padding-top: 250px;
 }
 
