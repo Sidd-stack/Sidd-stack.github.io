@@ -89,7 +89,7 @@ img{
 }
 
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
     .main_grid{
         grid-template-columns: repeat(2, 1fr);
     }
