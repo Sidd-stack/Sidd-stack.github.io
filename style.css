@@ -1,96 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
-body {
-    margin: 0px;
-    padding: 0px;
-    font-family:'montserrat';
-    overflow-y:scroll;
-    background-color:rgb(255, 255, 255);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+
+body{
+
+    position: relative;
+    width: width;
+    height: 1920px;
+    background-color: white;
 }
 
-/* width */
-::-webkit-scrollbar {
-    width: 8px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    padding-right: 100px;
-    box-shadow: inset 0 0 0px rgb(0, 0, 0); 
-    border-radius: 10px;
-  }
-
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: grey; 
-    border-radius: 100px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgb(56, 56, 56); 
-  } 
-
-.rectangle{
-    z-index: 1;
-    width: 100%;
-    height: 60px;
+h2{
     position: fixed;
-    background-color: rgb(0, 0, 0);
+    top: 50px;
+    left: 1600px;
+    font-size: 20px;;
+    font-family: 'Mr Dafoe', 'cursive';
 }
 
-h3{
-    font-size: 19px;
-    color: rgb(255, 255, 255);
-    text-align: right;
-    margin: 0px;
-    padding-right: 30px;
-}
 
-h5{
-    font-size: 30px;
-    font-family: 'Grape Nuts';
-    color: rgb(255, 255, 255);
-    text-align: left;
-    margin: 0px;
-    padding-left: 40px;
-}
+.contact-button {
+    position: fixed;
+    top: 70px;
+    left: 250px;
+    background-color: #8F00FF; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 50px; 
+    cursor: pointer;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+ }
 
-.rectangle{
-    grid-template-columns: 50% 50%;
-    display: grid;
-    padding-top: 40px;
-}
-
-.main_grid{
-    padding: 50px;
-    display: grid;
-    gap: 10px;
-    color: rgb(0, 0, 0);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-top: 250px;
+.contact-button:hover{
+    background-color: #ce74ff;
 }
 
 img{
+    position: fixed;
+    top: 250px;
+    left: 250px;
+    transform: translate(40%, -50);
+    width: 21%;
+    height: auto;
     border-radius: 50px;
 }
 
-.arrow{
-    display: flex;
-    justify-content: center ;
+
+.vertical-line{
+    border-left: 2px solid rgb(153, 0, 254);
+    height: 500px;
+    position: absolute;
+    left: 700px;
+    top: 260px;  
 }
 
-.about{
-    padding: 20px;
+.vertical-line2{
+    border-left: 2px solid rgb(255, 128, 0);
+    height: 500px;
+    position: absolute;
+    left: 700px;
+    top: 1220px;  
+}
+
+.text_near_image{
+    position: absolute;
+    top: 490px;
+    left: 320px;
+    transform: translate(40%, -50%);
+    font-size: .9vw;
+    width: 1000px;
+    height: auto;
     text-align: center;
+    font-style: italic ;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
-
-@media (min-width: 600px) {
-    .main_grid{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
