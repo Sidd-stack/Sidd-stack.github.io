@@ -1,80 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 
 body{
-
-    position: relative;
-    width: width;
-    height: 1920px;
-    background-color: white;
-}
-
-h2{
-    position: fixed;
-    top: 50px;
-    left: 1600px;
-    font-size: 20px;;
-    font-family: 'Mr Dafoe', 'cursive';
+    font-family: Montserrat;
+    background-image: url('sirisvisual-Qh6yUFl7P5E-unsplash.jpg')
 }
 
 
-.contact-button {
-    position: fixed;
-    top: 70px;
-    left: 250px;
-    background-color: #8F00FF; 
-    color: white; 
-    padding: 10px 20px; 
-    border: none;
-    border-radius: 50px; 
-    cursor: pointer;
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-style: normal;
-    font-size: 20px;
-    transition: background-color 0.3s ease;
- }
-
-.contact-button:hover{
-    background-color: #ce74ff;
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
 }
 
-img{
-    position: fixed;
-    top: 250px;
-    left: 250px;
-    transform: translate(40%, -50);
-    width: 21%;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar-item {
+  margin-right: 10px;
+}
+
+.content {
+  margin-top: 130px;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 90px;
+}
+
+.column {  
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.h2{
+    margin-top: 100px;
+}
+
+.rounded-image{
+    width: 70%;
     height: auto;
-    border-radius: 50px;
+    border-radius: 10%;
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
 
-.vertical-line{
-    border-left: 2px solid rgb(153, 0, 254);
-    height: 500px;
-    position: absolute;
-    left: 700px;
-    top: 260px;  
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-item {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .column {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 }
-
-.vertical-line2{
-    border-left: 2px solid rgb(255, 128, 0);
-    height: 500px;
-    position: absolute;
-    left: 700px;
-    top: 1220px;  
-}
-
-.text_near_image{
-    position: absolute;
-    top: 490px;
-    left: 320px;
-    transform: translate(40%, -50%);
-    font-size: .9vw;
-    width: 1000px;
-    height: auto;
-    text-align: center;
-    font-style: italic ;
-    font-family: 'Montserrat Alternates', sans-serif;
-}
-
