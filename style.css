@@ -90,6 +90,10 @@ h2{
 }
 
 @media screen and (max-width: 768px) {
+    
+  .content {
+    margin-top: 45px;
+  }
 
   h2{
     margin-top: 0px;
