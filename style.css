@@ -24,7 +24,7 @@ p{
 .navbar {
   text-align: center;
   background-color: black;
-  font-size:80px;
+  font-size: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,11 +95,14 @@ p{
     padding: 0px;
   }
   
+  .button {
+    padding: 20px;
+  }
 
   .navbar {
     flex-direction: column;
     align-items: center;
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .navbar-item {
