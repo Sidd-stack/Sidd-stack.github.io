@@ -89,15 +89,20 @@ h2{
   font-size: 16px;
 }
 
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 2060px) {
   body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
 
+  .content{
+    margin-top: 260px;
+  }
+
 
   .container-2 {
+    justify-content: center;
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
