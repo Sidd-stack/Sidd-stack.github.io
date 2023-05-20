@@ -1,15 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
-
 body{
     margin: 0;
     padding: 0;
-    font-family: Montserrat, Verdana, Arial, sans-serif;
-    background-image: url('sirisvisual-Qh6yUFl7P5E-unsplash.jpg')
+    font-family: Montserrat;
+    background-image: url('bg-image.jpg')
+}
+
+@font-face{
+  font-family: Montserrat;
+  src: url('Montserrat-MediumItalic.ttf') format('ttf');
 }
 
 
-
 .container-2 {
+  background-color: grey;
   max-width: 960px;
   margin: auto;
   padding: 20px;
@@ -41,16 +44,19 @@ p{
 }
 
 .content {
+  color: white;
   margin-top: 130px;
 }
 
 .row {
+  background-color: yellow;
   display: flex;
   margin-bottom: 0px;
 }
 
 
 .column {  
+  background-color: green;
   font-size: 21px;
   flex: 1;
   padding: 10px;
@@ -69,6 +75,7 @@ h2{
 }
 
 .container-3{
+    background-color: blue;
     position: relative;
     left: 200px;
     bottom: 200px;
@@ -92,8 +99,8 @@ h2{
 @media screen and (min-width: 2060px) {
   body {
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-repeat: repeat;
+    background-position: cover;
   }
 
   .content{
