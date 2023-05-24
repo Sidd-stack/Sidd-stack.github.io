@@ -12,7 +12,6 @@ src: url('Montserrat-MediumItalic.woff') format('woff');
 
 
 .container-2 {
-background-color: ;
 max-width: 960px;
 margin: auto;
 padding: 20px;
@@ -49,14 +48,12 @@ margin-top: 130px;
 }
 
 .row {
-background-color: ;
 display: flex;
 margin-bottom: 0px;
 }
 
 
 .column {  
-background-color: ;
 font-size: 21px;
 flex: 1;
 padding: 10px;
@@ -75,7 +72,6 @@ h2{
 }
 
 .container-3{
-  background-color: ;
   position: relative;
   left: 200px;
   bottom: 200px;
