@@ -72,15 +72,17 @@ h2{
 }
 
 .container-3{
+  
   position: relative;
   left: 200px;
   bottom: 200px;
   display: inline-block;
   transform: rotate(270deg);
-  margin:0;
+  margin: 0;
 }
 
 .button{
+
 background-color: purple;
 border-radius: 40px;
 border: none;
@@ -92,7 +94,7 @@ display: inline-block;
 font-size: 16px;
 }
 
-@media screen and (min-width: 2060px) {
+@media screen and (min-width: 1920-px) {
 body {
   background-size: cover;
   background-repeat: repeat;
@@ -111,6 +113,26 @@ body {
   box-sizing: border-box;
 }
 }
+
+@media screen and (max-width: 1300px) {
+  body {
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: cover;
+  }
+  
+  .content{
+    margin-top: 0px;
+  }
+  
+  
+  .container-2 {
+    justify-content: center;
+    width: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  }
 
 @media screen and (max-width: 768px) {
 
