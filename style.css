@@ -1,0 +1,177 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+  background-image: url('bg-image.jpg');
+  background: 
+}
+
+@font-face{
+font-family: Montserrat;
+src: url('Montserrat-MediumItalic.woff') format('woff');
+}
+
+
+.container-2 {
+max-width: 960px;
+margin: auto;
+padding: 20px;
+}
+
+p{
+margin-top: 10px;
+color: white;
+margin: 0;
+}
+
+.navbar {
+text-align: center;
+background-color: black;
+font-size: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+padding-bottom: 20px;
+padding-left: 60px;
+padding-right: 60px;
+}
+
+
+
+.navbar-item {
+margin-right: 0px;
+}
+
+.content {
+color: white;
+margin-top: 130px;
+}
+
+.row {
+display: flex;
+margin-bottom: 0px;
+}
+
+
+.column {  
+font-size: 21px;
+flex: 1;
+padding: 10px;
+margin-right: 10px;
+text-align: center;
+}
+
+h2{
+  margin-top: 170px;
+}
+
+.rounded-image{
+  width: 70%;
+  height: auto;
+  border-radius: 10%;
+}
+
+.container-3{
+  
+  position: relative;
+  left: 200px;
+  bottom: 200px;
+  display: inline-block;
+  transform: rotate(270deg);
+  margin: 0;
+}
+
+.button{
+
+background-color: purple;
+border-radius: 40px;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+
+@media screen and (min-width: 1920-px) {
+body {
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: cover;
+}
+
+.content{
+  margin-top: 260px;
+}
+
+
+.container-2 {
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+}
+
+@media screen and (max-width: 1300px) {
+  body {
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: cover;
+  }
+  
+  .content{
+    margin-top: 0px;
+  }
+  
+  
+  .container-2 {
+    justify-content: center;
+    width: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  }
+
+@media screen and (max-width: 768px) {
+
+.content{
+  margin-top: 45px;
+}
+
+h2{
+  margin-top: 0px;
+}
+
+.container {
+  padding: 0px;
+}
+
+.button {
+  margin: 10px;
+  padding: 20px;
+}
+
+.navbar {
+  flex-direction: column;
+  align-items: center;
+  font-size: 19px;
+}
+
+.navbar-item {
+  margin-bottom: 10px;
+  margin-right: 0;
+}
+
+.row {
+  flex-direction: column;
+}
+
+.column {
+  font-size: 18px;
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+}
