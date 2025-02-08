@@ -1,0 +1,32 @@
+.container {
+    background-image: url(./img/bg.jpg);
+    padding: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container img {
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        
+        padding: 20px;
+        padding-top: 60px;
+        max-width: 60rem;
+    }
+
+    .container img {
+        padding: 0px;
+        padding-top: 20px;
+    }
+
+    .btn {
+
+        font-size: 32px !important;
+    }
+  }
